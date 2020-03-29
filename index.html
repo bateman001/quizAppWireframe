@@ -12,6 +12,9 @@
 		
 		<div class="js-final-score">
 				<!-- display final score here-->
+			<h2>Final Score</h2>
+			<h1>X/100</h1>
+			<p>Would you like to play again?</p>
 		</div>
 		<div class="playContainer">
 		<p>Test your Hip-Hop knowledge </p>
@@ -21,20 +24,36 @@
 		<form id="js-quiz-form">
 			<div class="js-q-number">
 				<!-- display which number question there on here-->
+				<p>1/10</p>
 			</div>
+			<div class="QA-container">
 			<div class="js-questions">
-				<!--display question here-->
+				<!--display question div rendered from js but for the sake of this assignment I will hardcode one here-->
+				<legend>Which rapper interrupted Taylor Swift at the 2009 MTV Music Awards</legend>
 			</div>
 			<div class="js-answers">
-				<!--display four answer choices here-->
+				<!--display four answer choices here. same as above-->
+				<input type="radio" name="answer1" id="kanye" value="0">
+				<label for="0">Kanye West</label><br>
+				<input type="radio" name="answer1" id="2Chains" value="1">
+				<label for="1">2 Chains</label><br>
+				<input type="radio" name="answer1" id="RickRoss" value="2">
+				<label for="2">Rick Ross</label><br>
+				<input type="radio" name="answer1" id="LilWayne" value="3">
+				<label for="0">Lil Wayne</label>
 			</div>
+				
 			<button id="js-submit-answer" type="button">submit</button>
 			<button id="js-next" type="button">next</button>
+			</div>
 			<div class="js-response">
 				<!--right or wrong answers go here -->
+				<p class="right">Correct!</p>
+				<p class="wrong">Wrong! The correct answer is X!</p>
 			</div>
 			<div class="current-score">
 				<!-- display current score here -->
+				<p>X/100</p>
 			</div>
 			
 		</form>

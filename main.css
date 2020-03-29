@@ -5,18 +5,8 @@
 	box-sizing: border-box;
 }
 
-@font-face{
-	font-family: header;
-	src: url("style/rocket_wildness/ROCKET WILDNESS.woff");
-}
-@font-face{
-	font-family: paragraph;
-	src: url("style/Kiona/fonts/Kiona-Regular.woff");
 }
 body{
-	background-image: url("images/pinkclouds.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
 		
 }
 
@@ -43,16 +33,11 @@ h3, h2, p{
 	text-align: center;
 }
 
-legend{
-	font-size: 20px;
-}
-
 
 button{
 	font-family: paragraph;
 	font-size: 20px;
-	border: 1px solid rgba(255,190,187,1.00);
-	background-color: transparent;
+ 	background-color: transparent;
 	margin-bottom: 5%;
 	margin-top: 2%;
 	margin-right: auto;
@@ -71,13 +56,12 @@ button:hover{
 	flex-direction: column;
 }
 
-
-
-#js-quiz-form{
-	display: none;
+.js-answers{
+	display: block;
 	flex-direction: column;
-	alight-content: center;
-	
+	margin-left: 2px;
 }
 
-
+.js-questions{
+	text-align: center;
+}
